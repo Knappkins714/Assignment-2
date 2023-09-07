@@ -1,0 +1,45 @@
+<html>
+  <title>Form Page</title>
+  <link rel = "stylesheet" href = "styles.css">
+  <a href = "index.html">Introductory Page</a>
+  <head>
+    <h2>Pizza & Movies</h2>
+    <h4>Please Sign In Below</h4>
+    <hr>
+    <br>
+  </head>
+  <body>
+    <form>
+      Username: <input type = "text" name = "name"><br>
+      Password: <input type = "password" name = "pwd"><br>
+      <table>
+        <tr>
+          <td valign = "top">
+            Pizza Type:<br>
+            <select name = "food">
+              <option value = "pepperoni">Pepperoni</option>
+              <option value = "margherita">Margherita</option>
+              <option value = "bbq chicken">BBQ Chicken</option>
+              <option value = "hawaiian">Hawaiian</option>
+            </select>
+          </td>
+          <td>
+            Payment:<br>
+              <input type = "radio" name = "pmt" value = "cash" checked>Cash<br>
+              <input type = "radio" name = "pmt" value = "credit">Credit<br>
+              <input type = "radio" name = "pmt" value = "debit">Debit
+          </td>
+          <td valign="top">
+              Account:<br>
+              <input type = "checkbox" name = "eatin" value = "Bike">Sign Up<br>
+              <input type = "checkbox" name = "member" value = "Car">Log In 
+          </td>          
+        </tr>
+      </table>
+      <br>
+      <input type = "date" value = "Date">
+      <input class = submit type = "submit" value = "Submit">   
+    </form>
+  </body>
+  <img src = "Pizza.jpg" height = "175">
+</html>
